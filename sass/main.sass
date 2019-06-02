@@ -1,0 +1,71 @@
+/* fonts */
+
+@font-face 
+font-family: 'Proxima Nova Rg'
+src: url('../fonts/ProximaNova-Bold.eot')
+src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype')
+url('../fonts/ProximaNova-Bold.woff2') format('woff2')
+url('../fonts/ProximaNova-Bold.woff') format('woff')
+url('../fonts/ProximaNova-Bold.ttf') format('truetype')
+url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg')
+font-weight: bold
+font-style: normal
+
+
+@font-face 
+font-family: 'Proxima Nova Rg'
+src: url('../fonts/ProximaNova-RegularIt.eot')
+src: url('../fonts/ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype')
+url('../fonts/ProximaNova-RegularIt.woff2') format('woff2')
+url('../fonts/ProximaNova-RegularIt.woff') format('woff')
+url('../fonts/ProximaNova-RegularIt.ttf') format('truetype')
+url('../fonts/ProximaNova-RegularIt.svg#ProximaNova-RegularIt') format('svg')
+font-weight: normal
+font-style: italic
+
+
+
+/* colors */
+$btn-color: #feb403
+$icons-color: #48bc15
+$text-color: #292929
+$problem: ff0000
+$bg-light: #f5f5f5 
+$light: #fff 
+ 
+/* Basic setting */
+html 
+	font-size: 10px
+
+/* Typography */ /* rem - единица измерения, ее значение определяет свойство font-size: 10px. 10rem = 100 px; */
+section 
+	padding: 10rem 0
+main
+	padding: 3rem 0
+
+.header 
+		height: 7rem
+
+.button
+	background-color: $btn-color
+	color: $light
+	padding: 1rem 3rem
+	border-radius: 8px
+	text-transform: uppercase
+	border: none
+
+.wrap
+	display: table
+	height: 7rem
+	width: 100%
+	&-block
+		display: table-cell
+		vertical-align: middle
+
+.ph-link
+	display: inline-block
+	color: $text-color
+	font-weight: 700
+	font-size: 2rem
+	height: 7rem
+	line-height: 7rem
